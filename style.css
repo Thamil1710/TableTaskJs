@@ -1,0 +1,132 @@
+body {
+  width: 100%;
+  white-space: nowrap;
+}
+
+
+.w-0 {
+  width: 40px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+}
+
+#search {
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.pagination {
+  display: flex;
+}
+
+.pagination button {
+  border: 1px solid #3498db;
+  background: none;
+  margin: 0 5px;
+  padding: 7px 14px;
+  cursor: pointer;
+  transition: 0.8s;
+
+}
+
+.pagination button:hover {
+  background-color: lightblue;
+
+}
+
+.add-circle {
+  color: green;
+}
+
+.soft:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+
+
+.soft {
+  color: lightblue;
+}
+
+
+/* @media (max-width:767px) {
+  .pagination{
+  max-width: 320px;
+  width: 100%;
+  overflow-x: scroll;
+}
+.pagination::-webkit-scrollbar{
+  background-color: gray;
+  height: 4px;
+  cursor: pointer;
+}
+.pagination::-webkit-scrollbar-thumb{
+  height: 2px;
+  background-color: black;
+}
+} */
+
+@media (max-width:1440px) {
+  .fntshow {
+    font-size: 21px;
+  }
+}
+
+
+@media (max-width:1200px) {
+  .disphone {
+    display: none;
+  }
+
+  .fntshow {
+    font-size: 22px;
+  }
+}
+
+
+@media (max-width:1020px) {
+  .discity {
+    display: none;
+  }
+
+  .fntshow {
+    font-size: 20px;
+  }
+}
+
+
+
+@media (max-width:768px) {
+  .dis {
+    display: none;
+  }
+
+  .disfnt {
+    font-size: 12px;
+  }
+
+  .fntshow {
+    font-size: 15px;
+  }
+}
+
+@media (max-width:450px) {
+  .fntshow {
+    font-size: 13px;
+  }
+}
+
+@media (max-width:550px) {
+  .w-0 {
+    width: 25px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0 4px 0 4px;
+  }
+
+  .fnthead {
+    font-size: 10px;
+  }
+}
